@@ -6,7 +6,7 @@ nmax = -1
 nmin = 101
 imax = 0
 imin = 0
-for i in range(int(150)):
+for i in range(int(1e6)):
     a = float(input.readline())
     summa += a
     sumkvad += a**2
