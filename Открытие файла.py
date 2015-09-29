@@ -1,6 +1,0 @@
-input = open('input.txt', 'r')
-output = open('output.txt', 'w')
-s = input.read()
-output.write(s)
-input.close()
-output.close()
