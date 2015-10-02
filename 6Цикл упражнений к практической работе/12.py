@@ -1,6 +1,12 @@
-N = input()
+N = int(input())
 a = list(map(int, input().split()))
-median = a[0]
 number = 0
-while number != N//2:
-    for i in range(N):
+for i in range(N):
+    for j in range(N):
+        if a[i] > a[j]:
+            number += 1
+    if number == N//2:
+        print(a[i])
+        break
+    else:
+        number = 0
