@@ -1,4 +1,4 @@
-A = '1 2 3 4 5'.split()
+A = input().split()
 for i in range(len(A)):
-    print(A[i*((-1)**i)])
+    print(A[((i+1)//2)*((-1)**i)], end=' ')
 
