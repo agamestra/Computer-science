@@ -6,7 +6,6 @@ def fun(n, k):
             posl[j] = posl[j+1]
         posl[k-1] = summa
     return posl[k-1]
-
 inp = list(map(int, input().split()))
 k = inp[0]
 n = inp[1]
