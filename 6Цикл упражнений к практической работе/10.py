@@ -1,3 +1,4 @@
+__author__ = 'Evgeny'
 A = list(map(int, input().split()))
 t = int(input())
 N = len(A)

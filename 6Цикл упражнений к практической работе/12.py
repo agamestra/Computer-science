@@ -1,3 +1,4 @@
+__author__ = 'Evgeny'
 N = int(input())
 a = list(map(int, input().split()))
 number = 0

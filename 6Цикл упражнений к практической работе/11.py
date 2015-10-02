@@ -1,3 +1,4 @@
+__author__ = 'Evgeny'
 def fun(n, k):
     posl = [1 for i in range(k)]
     for i in range(n-k+1):
