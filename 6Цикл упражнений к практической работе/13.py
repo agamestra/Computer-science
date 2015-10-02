@@ -13,5 +13,4 @@ while True:
         i += 1
     if i > len(marks)-2:
         break
-print(marks)
 print(floor(sum(marks)/len(marks)))

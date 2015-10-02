@@ -10,5 +10,4 @@ for i in range(N):
             lis.append(0)
     for j in range(b-a+1):
         lis[a+j] += 1
-print(lis)
 print(lis[int(input())])
